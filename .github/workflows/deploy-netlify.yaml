@@ -16,7 +16,7 @@ jobs:
       uses: jsmrcaga/action-netlify-deploy@v2.0.0
       with:
         NETLIFY_AUTH_TOKEN: nfp_yCEbccZczsiosBy9FYKdEH6msQfdRtdM3a8d
-        NETLIFY_SITE_ID: a4c392c7-1045-429d-bab6-83e8791ae6e6
+        NETLIFY_SITE_ID: a3205a48-71f3-4855-813a-b038d37862f8
         NETLIFY_DEPLOY_TO_PROD: true
         build_directory: build/dashboard
         deploy-message: "Automated deployment from GitHub Actions"
