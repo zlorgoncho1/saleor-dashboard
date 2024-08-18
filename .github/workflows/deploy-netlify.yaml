@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Deploy to Netlify
-      uses: netlify/actions/cli@v1.1.0
+      uses: jsmrcaga/action-netlify-deploy@v2.0.0
       with:
         NETLIFY_AUTH_TOKEN: nfp_yCEbccZczsiosBy9FYKdEH6msQfdRtdM3a8d
         NETLIFY_SITE_ID: a4c392c7-1045-429d-bab6-83e8791ae6e6
