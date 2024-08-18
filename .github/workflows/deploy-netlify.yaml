@@ -18,7 +18,7 @@ jobs:
         NETLIFY_AUTH_TOKEN: nfp_yCEbccZczsiosBy9FYKdEH6msQfdRtdM3a8d
         NETLIFY_SITE_ID: a4c392c7-1045-429d-bab6-83e8791ae6e6
         NETLIFY_DEPLOY_TO_PROD: true
-        build_directory: dist/dashboard
+        build_directory: build/dashboard
         deploy-message: "Automated deployment from GitHub Actions"
         install_command: "echo Skipping installing the dependencies"
         build_command: "echo Skipping building the web files"
